@@ -3,41 +3,40 @@
     padding:0;
 }
 
-body{
-    background-color: ;
-    text-align: center;
-}
-
-.game{
-    margin-top: 5%;
+body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
-
-.game ul{
+h1 {
+    margin-bottom: 20px;
+}
+.game ul {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 200px;
+    gap: 20px;
 }
-
-.game li{
-    background: blue;
+.game li {
+    background: #007bff;
     padding: 15px 30px;
-    border-radius: 5px;
-    transition: 0.5;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
 }
-
-li:hover{
-    background: red;
+.game li:hover {
+    background: #0056b3;
 }
-
-a{
+.game a {
     text-decoration: none;
+    color: white;
+    font-size: 20px;
     font-weight: bold;
-    color:white;
-    font-size: 18px;
 }
 
 /* --- Bot Game -- */
