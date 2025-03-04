@@ -1,3 +1,4 @@
+// --- Lawan Bot ---
 const boxes = document.querySelectorAll('.box');
 const statusText = document.querySelector('#status');
 const restartBtn = document.querySelector('#reset');
@@ -76,3 +77,5 @@ function restartGame() {
 }
 
 initializeGame();
+
+
